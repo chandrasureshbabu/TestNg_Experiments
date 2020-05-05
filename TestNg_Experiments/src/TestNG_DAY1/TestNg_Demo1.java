@@ -10,5 +10,10 @@ public class TestNg_Demo1 {
 	{
 		System.out.println("Hello TestNg");
 	}
+	@Test
+	public void secondTst()
+	{
+		System.out.println("2nd Test");
+	}
 
 }
