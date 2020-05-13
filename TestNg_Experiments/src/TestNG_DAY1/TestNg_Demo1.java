@@ -6,14 +6,14 @@ public class TestNg_Demo1 {
 	
 	
 	@Test
-	public void demo()
+	public void personalloan()
 	{
-		System.out.println("Hello TestNg");
+		System.out.println("TestNg_Demo1- personalLoan -1");
 	}
 	@Test
-	public void secondTst()
+	public void carloan()
 	{
-		System.out.println("2nd Test");
+		System.out.println("TestNg_Demo1- car loan - 2");
 	}
 
 }

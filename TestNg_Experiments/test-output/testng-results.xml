@@ -1,43 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="204" started-at="2020-05-05T16:25:55Z" finished-at="2020-05-05T16:25:55Z">
+  <suite name="Invoicing" duration-ms="81" started-at="2020-05-13T08:14:09Z" finished-at="2020-05-13T08:14:09Z">
     <groups>
+      <group name="smoke">
+        <method signature="Broker_InvoicIng.brokerInvoiceTOReoOutosurcer()[pri:0, instance:TestNG_DAY2.Broker_InvoicIng@402f32ff]" name="brokerInvoiceTOReoOutosurcer" class="TestNG_DAY2.Broker_InvoicIng"/>
+        <method signature="Broker_InvoicIng.brokerInvoiceToOutosurcer()[pri:0, instance:TestNG_DAY2.Broker_InvoicIng@402f32ff]" name="brokerInvoiceToOutosurcer" class="TestNG_DAY2.Broker_InvoicIng"/>
+        <method signature="Broker_InvoicIng.brokernvoicetoServicer()[pri:0, instance:TestNG_DAY2.Broker_InvoicIng@402f32ff]" name="brokernvoicetoServicer" class="TestNG_DAY2.Broker_InvoicIng"/>
+        <method signature="ReoOutbroker_InvoicIng.reoBrokerinvoicetoServicer()[pri:0, instance:TestNG_DAY2.ReoOutbroker_InvoicIng@573f2bb1]" name="reoBrokerinvoicetoServicer" class="TestNG_DAY2.ReoOutbroker_InvoicIng"/>
+        <method signature="ReoOutbroker_InvoicIng.reobrokerInvoiceToOutosurcer()[pri:0, instance:TestNG_DAY2.ReoOutbroker_InvoicIng@573f2bb1]" name="reobrokerInvoiceToOutosurcer" class="TestNG_DAY2.ReoOutbroker_InvoicIng"/>
+        <method signature="Vendor_InvoicIng.createInvoiceOutosurcer()[pri:0, instance:TestNG_DAY2.Vendor_InvoicIng@3c756e4d]" name="createInvoiceOutosurcer" class="TestNG_DAY2.Vendor_InvoicIng"/>
+        <method signature="Vendor_InvoicIng.createInvoiceReoOutosurcer()[pri:0, instance:TestNG_DAY2.Vendor_InvoicIng@3c756e4d]" name="createInvoiceReoOutosurcer" class="TestNG_DAY2.Vendor_InvoicIng"/>
+        <method signature="Vendor_InvoicIng.createInvoiceServicer()[pri:0, instance:TestNG_DAY2.Vendor_InvoicIng@3c756e4d]" name="createInvoiceServicer" class="TestNG_DAY2.Vendor_InvoicIng"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="TestNG_XmlBasicDemos" duration-ms="72" started-at="2020-05-05T16:25:55Z" finished-at="2020-05-05T16:25:55Z">
-      <class name="TestNG_DAY1.TestNg_Demo2">
-        <test-method status="PASS" signature="Test1()[pri:0, instance:TestNG_DAY1.TestNg_Demo2@1efbd816]" name="Test1" duration-ms="4" started-at="2020-05-05T21:55:55Z" finished-at="2020-05-05T21:55:55Z">
+    <test name="Smoke_test" duration-ms="81" started-at="2020-05-13T08:14:09Z" finished-at="2020-05-13T08:14:09Z">
+      <class name="TestNG_DAY2.Broker_InvoicIng">
+        <test-method status="PASS" signature="brokerInvoiceTOReoOutosurcer()[pri:0, instance:TestNG_DAY2.Broker_InvoicIng@402f32ff]" name="brokerInvoiceTOReoOutosurcer" duration-ms="4" started-at="2020-05-13T13:44:09Z" finished-at="2020-05-13T13:44:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method status="PASS" signature="Test2()[pri:0, instance:TestNG_DAY1.TestNg_Demo2@1efbd816]" name="Test2" duration-ms="4" started-at="2020-05-05T21:55:55Z" finished-at="2020-05-05T21:55:55Z">
+        </test-method> <!-- brokerInvoiceTOReoOutosurcer -->
+        <test-method status="PASS" signature="brokerInvoiceToOutosurcer()[pri:0, instance:TestNG_DAY2.Broker_InvoicIng@402f32ff]" name="brokerInvoiceToOutosurcer" duration-ms="4" started-at="2020-05-13T13:44:09Z" finished-at="2020-05-13T13:44:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test2 -->
-      </class> <!-- TestNG_DAY1.TestNg_Demo2 -->
-      <class name="TestNG_DAY1.TestNg_Demo1">
-        <test-method status="PASS" signature="demo()[pri:0, instance:TestNG_DAY1.TestNg_Demo1@7921b0a2]" name="demo" duration-ms="24" started-at="2020-05-05T21:55:55Z" finished-at="2020-05-05T21:55:55Z">
+        </test-method> <!-- brokerInvoiceToOutosurcer -->
+        <test-method status="PASS" signature="brokernvoicetoServicer()[pri:0, instance:TestNG_DAY2.Broker_InvoicIng@402f32ff]" name="brokernvoicetoServicer" duration-ms="4" started-at="2020-05-13T13:44:09Z" finished-at="2020-05-13T13:44:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demo -->
-        <test-method status="PASS" signature="secondTst()[pri:0, instance:TestNG_DAY1.TestNg_Demo1@7921b0a2]" name="secondTst" duration-ms="4" started-at="2020-05-05T21:55:55Z" finished-at="2020-05-05T21:55:55Z">
+        </test-method> <!-- brokernvoicetoServicer -->
+      </class> <!-- TestNG_DAY2.Broker_InvoicIng -->
+      <class name="TestNG_DAY2.ReoOutbroker_InvoicIng">
+        <test-method status="PASS" signature="reoBrokerinvoicetoServicer()[pri:0, instance:TestNG_DAY2.ReoOutbroker_InvoicIng@573f2bb1]" name="reoBrokerinvoicetoServicer" duration-ms="4" started-at="2020-05-13T13:44:09Z" finished-at="2020-05-13T13:44:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- secondTst -->
-      </class> <!-- TestNG_DAY1.TestNg_Demo1 -->
-    </test> <!-- TestNG_XmlBasicDemos -->
-    <test name="banking Tests" duration-ms="16" started-at="2020-05-05T16:25:55Z" finished-at="2020-05-05T16:25:55Z">
-      <class name="TestNG_DAY1.TestNg_Demo3">
-        <test-method status="PASS" signature="AppLogin()[pri:0, instance:TestNG_DAY1.TestNg_Demo3@36d4b5c]" name="AppLogin" duration-ms="8" started-at="2020-05-05T21:55:55Z" finished-at="2020-05-05T21:55:55Z">
+        </test-method> <!-- reoBrokerinvoicetoServicer -->
+        <test-method status="PASS" signature="reobrokerInvoiceToOutosurcer()[pri:0, instance:TestNG_DAY2.ReoOutbroker_InvoicIng@573f2bb1]" name="reobrokerInvoiceToOutosurcer" duration-ms="0" started-at="2020-05-13T13:44:09Z" finished-at="2020-05-13T13:44:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AppLogin -->
-        <test-method status="PASS" signature="WebLogin()[pri:0, instance:TestNG_DAY1.TestNg_Demo3@36d4b5c]" name="WebLogin" duration-ms="4" started-at="2020-05-05T21:55:55Z" finished-at="2020-05-05T21:55:55Z">
+        </test-method> <!-- reobrokerInvoiceToOutosurcer -->
+      </class> <!-- TestNG_DAY2.ReoOutbroker_InvoicIng -->
+      <class name="TestNG_DAY2.Vendor_InvoicIng">
+        <test-method status="PASS" signature="createInvoiceOutosurcer()[pri:0, instance:TestNG_DAY2.Vendor_InvoicIng@3c756e4d]" name="createInvoiceOutosurcer" duration-ms="12" started-at="2020-05-13T13:44:09Z" finished-at="2020-05-13T13:44:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WebLogin -->
-      </class> <!-- TestNG_DAY1.TestNg_Demo3 -->
-    </test> <!-- banking Tests -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- createInvoiceOutosurcer -->
+        <test-method status="PASS" signature="createInvoiceReoOutosurcer()[pri:0, instance:TestNG_DAY2.Vendor_InvoicIng@3c756e4d]" name="createInvoiceReoOutosurcer" duration-ms="6" started-at="2020-05-13T13:44:09Z" finished-at="2020-05-13T13:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInvoiceReoOutosurcer -->
+        <test-method status="PASS" signature="createInvoiceServicer()[pri:0, instance:TestNG_DAY2.Vendor_InvoicIng@3c756e4d]" name="createInvoiceServicer" duration-ms="0" started-at="2020-05-13T13:44:09Z" finished-at="2020-05-13T13:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInvoiceServicer -->
+      </class> <!-- TestNG_DAY2.Vendor_InvoicIng -->
+    </test> <!-- Smoke_test -->
+  </suite> <!-- Invoicing -->
 </testng-results>
