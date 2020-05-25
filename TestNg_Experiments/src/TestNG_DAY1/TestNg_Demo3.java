@@ -1,5 +1,6 @@
 package TestNG_DAY1;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
@@ -33,6 +34,7 @@ public class TestNg_Demo3 {
 	public void AppLogin()
 	{
 		System.out.println("Hello -__FC APP");
+		Assert.assertTrue(false);
 	}
 	
 	

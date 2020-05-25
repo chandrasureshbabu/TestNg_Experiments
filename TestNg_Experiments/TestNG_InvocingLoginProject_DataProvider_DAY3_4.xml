@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+    <test name="test in app">
+    	
+    	<classes>
+    		<class name="TestNG_InvocingLogin_Day3.InvoicingLogin_UI_VIBITOOlS_Exp2">
+    			<methods>
+    				<include name="toolLogin"/>
+    			</methods>
+    		</class>
+    	</classes>	
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

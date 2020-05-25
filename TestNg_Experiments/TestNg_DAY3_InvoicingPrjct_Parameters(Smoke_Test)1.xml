@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test in browser">
+  	<parameter name="url" value="www.Invoicingwebapp.com"/>
+    <classes>
+      <class name="TestNG_DAY2.Broker_InvoicIng"/>
+      <class name="TestNG_DAY2.Vendor_InvoicIng"/>
+      <class name="TestNG_DAY2.ReoOutbroker_InvoicIng"/>
+      <class name="TestNG_DAY2.Create_LineItemExceptions"/>
+    </classes>
+    </test>
+	    
+    <test name="test in app">
+    	<parameter name="appurl" value ="Playstore.in/invoicingVIBI"/>
+    	<classes>
+    		<class name="TestNG_DAY2.VIBI_Invoice_Imports"/>
+    	</classes>	
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

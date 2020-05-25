@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test_InvoiceImport@DIS">
+  	<classes>
+  		<class name="TestNG_DAY2.DIS_Invoice_Imports"/>
+  	</classes>
+  	</test>
+  	
+  	<test name="Test_InvoiceImport@VIBI">
+  		<classes>
+  			<class name="TestNG_DAY2.VIBI_Invoice_Imports"/>
+  		</classes>
+  	</test>
+ 	
+ 	<test name="Line Item BRES">
+ 		<classes>
+ 			<class name="TestNG_DAY2.Create_LineItemExceptions">
+ 				<methods>
+ 					<exclude name="ServicerLineItemExceptions"/>
+ 					<include name ="InvestorLineItemExceptions"/>
+ 				</methods>
+ 			</class>	
+ 		</classes>
+ 	</test>
+  
+</suite> <!-- Suite -->

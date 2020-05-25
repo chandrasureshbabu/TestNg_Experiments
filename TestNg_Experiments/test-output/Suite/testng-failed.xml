@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="TestNG_InvocingLogin_Day3.Listeners"/>
+  </listeners>
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="TestNG_DAY1.TestNg_Demo2">
+        <methods>
+          <include name="Deletecokkiesaftertesting"/>
+          <include name="beforemethodTag"/>
+          <include name="launchbrowser"/>
+          <include name="AftermethodTag"/>
+        </methods>
+      </class> <!-- TestNG_DAY1.TestNg_Demo2 -->
+      <class name="TestNG_DAY1.TestNg_Demo3">
+        <methods>
+          <include name="AfterClasstag"/>
+          <include name="AppLogin"/>
+          <include name="beforesuitetag"/>
+          <include name="beforeClasstag"/>
+          <include name="AfterSuitetag"/>
+        </methods>
+      </class> <!-- TestNG_DAY1.TestNg_Demo3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

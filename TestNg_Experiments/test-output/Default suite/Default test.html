@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Mon May 11 20:49:23 IST 2020</td>
+<td>Started on:</td><td>Mon May 18 18:52:47 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (45 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (28 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,23 +67,87 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestNG_DAY1.TestNg_Demo3.AppLogin()'><b>AppLogin</b><br>Test class: TestNG_DAY1.TestNg_Demo3</td>
-<td></td>
+<td title='TestNG_InvocingLogin_Day3.InvoicingLogin_UI_VIBITOOlS_Exp2.toolLogin()'><b>toolLogin</b><br>Test class: TestNG_InvocingLogin_Day3.InvoicingLogin_UI_VIBITOOlS_Exp2</td>
+<td><div><pre>java.lang.NoClassDefFoundError: com/google/common/primitives/Ints
+	at org.testng.internal.annotations.JDK15TagFactory.createDataProviderTag(JDK15TagFactory.java:335)
+	at org.testng.internal.annotations.JDK15TagFactory.createTag(JDK15TagFactory.java:59)
+	at org.testng.internal.annotations.JDK15AnnotationFinder.findAnnotation(JDK15AnnotationFinder.java:217)
+	at org.testng.internal.annotations.JDK15AnnotationFinder.findAnnotation(JDK15AnnotationFinder.java:111)
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:326)
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:261)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:418)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1240)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:980)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1070)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: java.lang.ClassNotFoundException: com.google.common.primitives.Ints
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 27 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace1757676444", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1757676444'><pre>java.lang.NoClassDefFoundError: com/google/common/primitives/Ints
+	at org.testng.internal.annotations.JDK15TagFactory.createDataProviderTag(JDK15TagFactory.java:335)
+	at org.testng.internal.annotations.JDK15TagFactory.createTag(JDK15TagFactory.java:59)
+	at org.testng.internal.annotations.JDK15AnnotationFinder.findAnnotation(JDK15AnnotationFinder.java:217)
+	at org.testng.internal.annotations.JDK15AnnotationFinder.findAnnotation(JDK15AnnotationFinder.java:111)
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:326)
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:261)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:418)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1240)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:980)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1070)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: java.lang.ClassNotFoundException: com.google.common.primitives.Ints
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 27 more
+</pre></div></td>
 <td>0</td>
-<td>TestNG_DAY1.TestNg_Demo3@5ae9a829</td></tr>
-<tr>
-<td title='TestNG_DAY1.TestNg_Demo3.WebLogin()'><b>WebLogin</b><br>Test class: TestNG_DAY1.TestNg_Demo3</td>
-<td></td>
-<td>0</td>
-<td>TestNG_DAY1.TestNg_Demo3@5ae9a829</td></tr>
+<td>TestNG_InvocingLogin_Day3.InvoicingLogin_UI_VIBITOOlS_Exp2@174d20a</td></tr>
 </table><p>
 </body>
 </html>
